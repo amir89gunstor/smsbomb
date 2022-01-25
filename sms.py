@@ -23,7 +23,7 @@ try:
     if NumberPhone == "" :
         print("\n[!] Please Enter Phone Number")
     else :
-        url = "https://app.snapp.taxi/api/api-passenger-oauth/v2/otp"
+        url = "https://ws.alibaba.ir/api/v3/account/mobile/otp"
         data = {"cellphone":"+98" + NumberPhone}
 
     while True:
